@@ -1,0 +1,41 @@
+{
+  "mcpServers": {
+    "heman-ai": {
+      "tools": [
+        {
+          "name": "invoke_power_of_grayskull",
+          "description": "Unlocks the Power Sword invariant and channels Castle Grayskull energy",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "invocation_phrase": {
+                "type": "string"
+              },
+              "target_defense": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "invocation_phrase"
+            ]
+          }
+        },
+        {
+          "name": "verify_eternia_invariant",
+          "description": "Verifies cryptographic proof of Eternia planetary energy preservation",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "proof_hash": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "proof_hash"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
